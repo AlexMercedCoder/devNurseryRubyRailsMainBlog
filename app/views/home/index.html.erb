@@ -1,0 +1,15 @@
+<div class="top">
+<h1 class="logo"> <span>dev</span>Nursery Main Blog </h1>
+
+<p> Welcome to the devNursery main blog where you will find posts updating you about new tech and the projects of devNursery.com founder, Alex Merced</p>
+</div>
+
+<% @posts.each do |post| %>
+  <div class="post">
+    <h1><%= post.name %></h1>
+    <h2><%= post.title %></h2>
+    <p><%= post.content %></p>
+  </div>
+<% end %>
+
+<h5>This page created by Alex Merced of AlexMercedCoder.com using Ruby on Rails</h5>

@@ -1,0 +1,33 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+#root {
+    --maroon: #A5243D;
+    --babyblue: #CEE0DC;
+    --lightpurp: #AFAAB9;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap');
+
+h5 {text-align: center;}
+
+.test {background-color: black; color: red;}
+
+.logo {text-align: center; font-size: 500%; width: 100%; margin: 10px auto; font-family: 'Major Mono Display', monospace;}
+
+.logo span {color: #A5243D;}
+
+.top p {text-align: center; width: 80%; margin: 20px auto;}
+
+.post {width: 80%; min-width: 300px; margin: 15px auto; padding: 10px; text-align: center;
+        border: 3px dotted #AFAAB9;
+
+        h1 {
+            background-color: #A5243D; color: white; padding: 5px;
+        }
+        h2{
+            font-size: 200%;text-decoration: underline;
+        }
+        p{
+            font-size: 150%;
+        }}
