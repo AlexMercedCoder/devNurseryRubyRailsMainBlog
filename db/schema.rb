@@ -17,8 +17,8 @@ ActiveRecord::Schema.define(version: 2019_12_28_173950) do
     t.string "title"
     t.text "content"
     t.text "summary"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
+    t.datetime "created_at", precision: 6, null: false default: -> { 'NOW()' }
+    t.datetime "updated_at", precision: 6, null: false default: -> { 'NOW()' }
   end
 
 end
